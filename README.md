@@ -30,37 +30,69 @@
 При разряде аккумулятора горит светодиод DISCHARGE(красный) находится возле аккумулятора
 
 5. Использованные компоненты:
-                              Reference	  Value	  Footprint	                      	Qty	
-                             *R7,R1,R2	  100	    Resistor_SMD:R_0402_1005Metric	~	3			
-                              BZ1        	Buzzer	Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R	~	1			
-                              C*7	        *2.2uF	Capacitor_SMD:C_0402_1005Metric	~	1			
-                              C1,C6,C7	  10uF	  Capacitor_SMD:C_0603_1608Metric	~	3			
-                              C2,C5	      10uF	  Capacitor_SMD:C_1206_3216Metric		2			
-                              C3,C8,C12  	0.1uF	  Capacitor_SMD:C_0402_1005Metric	~	3			
-                              C4,C9	      1uF	    Capacitor_SMD:C_0402_1005Metric	~	2			
-                              C10,C11	    22pF	  Capacitor_SMD:C_0402_1005Metric	~	2			
-                              D1	    LED CHARGE	LED_SMD:LED_0603_1608Metric	~	1			
-                              D2	    LED DISCHARGE	LED_SMD:LED_0603_1608Metric	~	1			
-                              D3	        VUSB	  LED_SMD:LED_0603_1608Metric	~	1			
-                              D4	      1N4148W	  Diode_SMD:D_SOD-123	https://www.vishay.com/docs/85748/1n4148w.pdf	1			
-                              D5	        SS34	  Diode_SMD:D_SOD-123	https://www.vishay.com/docs/88751/ss32.pdf	1			
-                              D6,D7	    -DATA_TX	LED_SMD:LED_0603_1608Metric	~	2			
-                              D8	      BAD	LED   SMD:LED_0603_1608Metric	~	1			
-                              D9	        OK	    LED_SMD:LED_0603_1608Metric	~	1			
-                              F1	      500mA	    Fuse:Fuse_1206_3216Metric	~	1			
-                              J1	      USB_A	    Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal	~	1			
-                              J2	        BAT    	Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm	~	1			
-                              J3	    Conn_01x04_Pin	Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical	~	1			
-                              L1	        1R5	    Inductor_SMD:L_1206_3216Metric	~	1			
-                              R*7	        *1.5	  Resistor_SMD:R_0402_1005Metric	~	1			
-R3,R4,R5,R6,R10,R11,R12,R13,R14,R15	      1K	    Resistor_SMD:R_0402_1005Metric	~	10			
+
+                              Reference	  Value	  Footprint	                      	Qty
+   
+                             *R7,R1,R2	  100	    Resistor_SMD:R_0402_1005Metric	~	3
+   
+                              BZ1        	Buzzer	Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R	~	1
+   
+                              C*7	        *2.2uF	Capacitor_SMD:C_0402_1005Metric	~	1
+   
+                              C1,C6,C7	  10uF	  Capacitor_SMD:C_0603_1608Metric	~	3
+   
+                              C2,C5	      10uF	  Capacitor_SMD:C_1206_3216Metric		2
+   	
+                              C3,C8,C12  	0.1uF	  Capacitor_SMD:C_0402_1005Metric	~	3
+   
+                              C4,C9	      1uF	    Capacitor_SMD:C_0402_1005Metric	~	2
+   
+                              C10,C11	    22pF	  Capacitor_SMD:C_0402_1005Metric	~	2
+   
+                              D1	    LED CHARGE	LED_SMD:LED_0603_1608Metric	~	1
+   
+                              D2	    LED DISCHARGE	LED_SMD:LED_0603_1608Metric	~	1
+   
+                              D3	        VUSB	  LED_SMD:LED_0603_1608Metric	~	1
+   
+                              D4	      1N4148W	  Diode_SMD:D_SOD-123	https://www.vishay.com/docs/85748/1n4148w.pdf	1
+   
+                              D5	        SS34	  Diode_SMD:D_SOD-123	https://www.vishay.com/docs/88751/ss32.pdf	1
+   
+                              D6,D7	    -DATA_TX	LED_SMD:LED_0603_1608Metric	~	2
+   
+                              D8	      BAD	LED   SMD:LED_0603_1608Metric	~	1
+   
+                              D9	        OK	    LED_SMD:LED_0603_1608Metric	~	1
+   
+                              F1	      500mA	    Fuse:Fuse_1206_3216Metric	~	1
+   
+                              J1	      USB_A	    Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal	~	1
+
+                              J2	        BAT    	Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm	~	1
+   	
+                              J3	    Conn_01x04_Pin	Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical	~	1
+   
+                              L1	        1R5	    Inductor_SMD:L_1206_3216Metric	~	1
+   
+                              R*7	        *1.5	  Resistor_SMD:R_0402_1005Metric	~	1
+   
+R3,R4,R5,R6,R10,R11,R12,R13,R14,R15	      1K	    Resistor_SMD:R_0402_1005Metric	~	10		
+
                               R7	        4K7	    Resistor_SMD:R_0402_1005Metric	~	1			
+                              
                               R8,R9	      22R	    Resistor_SMD:R_0402_1005Metric	~	2			
+                              
                               R16	        200R	  Resistor_SMD:R_0402_1005Metric	~	1			
+                              
                               SW1	      SW_SPDT_321	Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical	~	1			
-                              U1	    ATmega32U4-M	Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm	http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf	1			
+                              
+                              U1	    ATmega32U4-M	Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm	http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf	1		
+                              
                               U2	        TP4333	Package_SO:SOP-8_3.9x4.9mm_P1.27mm		1			
+                              
                               Y1	        16MHz	  Crystal:Crystal_SMD_0603-4Pin_6.0x3.5mm	https://foxonline.com/wp-content/uploads/pdfs/T5HN_T5HV.pdf	1
+                              
 6.Использованные инструменты: Паяльная станция с жалом типа "топорик", жало для пайки SMD типа C245-IS, паяльный фен 858D+, блок питания лабораторный KORAD 3005, осциллограф RIGOL, фрезерный станок CHARLY4U, система лазерной маркировки MINIMARKER2, пинцеты,
 припой ПОС61, флюс NC559, скальпель, изопропанол, жилы кабеля МГТФ.
 7. Пррблемы и трудности: Из-за малых габаритов устройства метод фрезерования оказался неэффективным, толщины дорожек слишком малы и их изготовление не может быть обеспечено ручной настройкой и точностью фрезерного станка. После первой и последней успешной попытки
