@@ -69,7 +69,9 @@ R3,R4,R5,R6,R10,R11,R12,R13,R14,R15	      1K	    Resistor_SMD:R_0402_1005Metric	
 ![image](https://github.com/user-attachments/assets/7b6a7421-635c-4fe6-8f22-bf1b03f76f65)  устройство с платой РЕЗОНИТ
 ![image](https://github.com/user-attachments/assets/dfca402b-816e-4592-8c97-54fc24e45005)  устройство на фрезерованной плате вид снизу
 ![image](https://github.com/user-attachments/assets/da4c2c95-40f1-4dc7-a2b8-a9711809e370)  устройство на фрезерованной плате вид сверху
+
 ДЕМОНСТРАЦИИ РАБОТЫ УСТРОЙСТВА НА РАЗНЫХ ПЛАТАХ 
+
 Плата Резонит Режим инициализации
 
 https://github.com/user-attachments/assets/325fc64f-16dd-4dcc-aebc-f22ac2b17836
