@@ -77,7 +77,7 @@
    
                               R*7	        *1.5	  Resistor_SMD:R_0402_1005Metric	~	1
    
-R3,R4,R5,R6,R10,R11,R12,R13,R14,R15	      1K	    Resistor_SMD:R_0402_1005Metric	~	10		
+            R3,R4,R5,R6,R10,R11,R12,R13,R14,R15	      1K	    Resistor_SMD:R_0402_1005Metric	~	10		
 
                               R7	        4K7	    Resistor_SMD:R_0402_1005Metric	~	1			
                               
