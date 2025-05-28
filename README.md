@@ -29,7 +29,8 @@
 
 При разряде аккумулятора горит светодиод DISCHARGE(красный) находится возле аккумулятора
 
-5. Использованные компоненты: Reference	  Value	  Footprint	                      	Qty	
+5. Использованные компоненты:
+                              Reference	  Value	  Footprint	                      	Qty	
                              *R7,R1,R2	  100	    Resistor_SMD:R_0402_1005Metric	~	3			
                               BZ1        	Buzzer	Buzzer_Beeper:MagneticBuzzer_PUI_AT-0927-TT-6-R	~	1			
                               C*7	        *2.2uF	Capacitor_SMD:C_0402_1005Metric	~	1			
@@ -50,7 +51,7 @@
                               J1	      USB_A	    Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal	~	1			
                               J2	        BAT    	Connector_Wire:SolderWire-0.1sqmm_1x02_P3.6mm_D0.4mm_OD1mm	~	1			
                               J3	    Conn_01x04_Pin	Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical	~	1			
-                              L1	        1L5	    Inductor_SMD:L_1206_3216Metric	~	1			
+                              L1	        1R5	    Inductor_SMD:L_1206_3216Metric	~	1			
                               R*7	        *1.5	  Resistor_SMD:R_0402_1005Metric	~	1			
 R3,R4,R5,R6,R10,R11,R12,R13,R14,R15	      1K	    Resistor_SMD:R_0402_1005Metric	~	10			
                               R7	        4K7	    Resistor_SMD:R_0402_1005Metric	~	1			
